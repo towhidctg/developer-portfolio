@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -9,9 +10,10 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
-    width: 100%;
+    width: 50%;
     padding-left: 4%;
 }
 .half-width img{
@@ -28,8 +30,15 @@ section{
     border-radius: 5px;
 }
 .top-banner{
-    background-image: url(images/top-banner.png)
-    background-repeat
-
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
+.towhid{
+    width: 800px;
+    height: 600px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
